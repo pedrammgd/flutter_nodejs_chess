@@ -1,0 +1,46 @@
+name: flutter_chess
+description: Online & Offline Chess App
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  get: ^4.7.3
+
+  # Networking
+  dio: ^5.9.2                      # HTTP client (replaces http)
+  socket_io_client: ^3.1.4         # Socket.IO realtime
+
+  # Storage
+  shared_preferences: ^2.5.4       # Token & user local storage
+  flutter_secure_storage: ^10.0.0   # Secure token storage
+
+  # Chess
+  advanced_chess_board: ^2.3.0     # Chess board UI (no conflict with chess package)
+  chess: ^0.8.1
+
+  # Media
+  image_picker: ^1.2.1             # Avatar upload
+  cached_network_image: ^3.4.1     # Avatar caching
+
+  # UI
+  flutter_svg: ^2.2.3
+  shimmer: ^3.0.0                  # Loading skeleton effect
+  pretty_dio_logger: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+#  assets:
+#    - assets/images/
