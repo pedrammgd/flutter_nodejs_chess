@@ -5,7 +5,7 @@
 ## Screenshots
 
 <p float="left">
-  <img src="screenshots/login.png" width="200"/>
+  <img src="screenshots/home.png" width="200"/>
   <img src="screenshots/chess.png" width="200"/>
   <img src="screenshots/leaderboard.png" width="200"/>
   <img src="screenshots/profile.png" width="200"/>
