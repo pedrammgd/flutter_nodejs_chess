@@ -1,5 +1,17 @@
 # ♟ Chess Online - Flutter + Node.js + MongoDB
 
+
+
+## Screenshots
+
+<p float="left">
+  <img src="screenshots/login.png" width="200"/>
+  <img src="screenshots/chess.png" width="200"/>
+  <img src="screenshots/leaderboard.png" width="200"/>
+  <img src="screenshots/profile.png" width="200"/>
+  <img src="screenshots/login.png" width="200"/>
+</p>
+
 ## Stack
 - **Frontend**: Flutter + GetX (MVC)
 - **Backend**: Node.js + Express + MongoDB + Socket.IO
